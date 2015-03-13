@@ -35,6 +35,7 @@ JRuby is a Ruby interpreter written in the Java programming language:
 Two major reasons:
 
 1) Java can be faster for certain workloads
+
 2) JRuby can integrate some Java tools that make certain solutions easier
 
 # Why did we use JRuby for this project?
@@ -46,3 +47,5 @@ Usually JRuby is selected for projects that are either integrating with a large 
 Since C Ruby (also known as MRI Ruby) is the default that most Rubyists have always used, there are many important Ruby code libraries written for C Ruby that do not run in JRuby.  This can mean more work rewriting those tools or learning JRuby substitutes.
 
 Equally important is the fact that JRuby program management and tooling doesn't look quite like C Ruby tooling.  Your programmers and sysadmins may have to read further or traing more to learn how to do something in JRuby that they already knew how to do in C Ruby.
+
+JRuby is also slower for very small programs.  C Ruby can start and run and finish in a half a second for a really simple program.  JRuby often takes several seconds just to get started, but then it might be faster once it gets going.  This is ideal for long-running server applications like Spree.
