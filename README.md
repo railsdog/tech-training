@@ -5,3 +5,4 @@ Railsdog is a software implementation partner.  Our clients and non-technical st
 ## Top writeups
 
 * Check the [ruby](ruby) folder first!
+* Check the [devops](devops) folder for some interesting operational stuff like application logging
