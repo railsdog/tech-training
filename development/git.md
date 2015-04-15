@@ -16,5 +16,9 @@ along with each change, you just send the change itself and Git stitches it toge
 
 I'll need to update this with a lot more information some day.
 
+### What does that look like?
+Let's use wikipedia as an accessible example.  Say there's a wikipedia page out there with 500 lines and you decide to add one more line to it.  How does wikipedia track the addition of that one line?  How can editors review the edit history of the document?  Here's a picture of the actual wikipedia version comparison screen.  It's fairly git-like:
+![wikipedia diff](http://i.imgur.com/VDM6fFL.png)
 
 ## What's a pull request?
+TBD
